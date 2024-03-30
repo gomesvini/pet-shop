@@ -2,12 +2,11 @@
     margin: 0;
 }
 
-body{
+body {
     font-family: sans-serif;
-    
 }
 
-.banner{
+.banner {
     width: 100%;
     padding: 120px 80px;
     background-image: url(/Assets/banner-topo.jpg);
@@ -21,7 +20,7 @@ body{
     color: #3c184e;
 }
 
-.first_paragraph{
+.first_paragraph {
     font-size: 35px;
     margin: 0 0 5px 0;
     font-weight: bold;
@@ -38,7 +37,7 @@ body{
     font-weight: bold;
 }
 
-.title{
+.title {
     max-width: 1024px;
     border-radius: 10px;
     padding: 40px;
@@ -52,7 +51,7 @@ body{
     color: #3c184e;
     text-align: center;
     font-weight: 800;
-    margin:  0 0 40px 0;
+    margin: 0 0 40px 0;
 }
 
 .title p {
@@ -73,8 +72,95 @@ body{
 .title img {
     width: 20px;
 }
- 
 
+.services {
+    width: 100%;
+    padding: 120px 80px;
+    box-sizing: border-box;
+}
 
+.services h3,
+.brands h3 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
 
+.list {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    color: #3c184e;
+}
 
+.list li {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+.list span {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.carousel {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.carousel img {
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px #0000005c;
+}
+
+.social_media {
+    padding: 120px 80px;
+    background-color: #3c184e;
+    text-align: center;
+}
+
+.social_media p {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.name {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.images_social_media {
+    text-align: center;
+}
+
+.images_social_media a {
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.images_social_media img {
+    width: 50px;
+    height: 50px;
+}
+
+.brands {
+    width: 100%;
+    padding: 120px 80px;
+    box-sizing: border-box;
+}
+
+.card_brands {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card_brands img {
+    width: 148px;
+    height: 148px;
+    margin: 0 15px;
+}
