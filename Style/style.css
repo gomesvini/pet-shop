@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+.body{
+    font-family: sans-serif;
+}
+
+.banner {
+    max-width: 250px;
+    color: #3c184e;
+}
+
+.first-paragraph{
+    font-size: 35px;
+    margin: 0 0 5px 0;
+}
+
+.first-paragraph img{
+    width: 30px;
+    ba: #3c184e;
+    margin-right: 5px;
+}
+
+.second-paragraph {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+
+.title {
+    background-color: #ffffffc4;
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0 auto;
+    box-shadow: 0 8px 32px #1f26875e;
+}
+
