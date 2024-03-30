@@ -114,13 +114,13 @@ body {
     box-shadow: 3px 6px 10px 6px #0000005c;
 }
 
-.social_media {
-    padding: 120px 80px;
+.social_media, .social_media_banner {
+    padding: 100px 80px;
     background-color: #3c184e;
     text-align: center;
 }
 
-.social_media p {
+.social_media p, .social_media_banner p {
     max-width: 800px;
     margin: 0 auto 50px auto;
     font-size: 40px;
