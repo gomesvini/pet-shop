@@ -80,7 +80,8 @@ body {
 }
 
 .services h3,
-.brands h3 {
+.brands h3,
+.where_are_we h3 {
     font-size: 36px;
     color: #3c184e;
     text-align: center;
@@ -114,13 +115,15 @@ body {
     box-shadow: 3px 6px 10px 6px #0000005c;
 }
 
-.social_media, .social_media_banner {
+.social_media,
+.social_media_banner {
     padding: 100px 80px;
     background-color: #3c184e;
     text-align: center;
 }
 
-.social_media p, .social_media_banner p {
+.social_media p,
+.social_media_banner p {
     max-width: 800px;
     margin: 0 auto 50px auto;
     font-size: 40px;
@@ -163,4 +166,37 @@ body {
     width: 148px;
     height: 148px;
     margin: 0 15px;
+}
+
+.where_are_we {
+    width: 100%;
+    padding: 100px 80px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.where_are_we p {
+    font-size: 20px;
+    color:#3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+.where_are_we iframe {
+    width: 800px;
+    height: 450px;
+    box-shadow: 10px 10px 10px #1f26875e;
+    border-radius: 10px;
+}
+
+.footer{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #3c184e;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
 }
