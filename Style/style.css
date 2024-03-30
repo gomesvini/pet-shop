@@ -2,38 +2,79 @@
     margin: 0;
 }
 
-.body{
+body{
     font-family: sans-serif;
+    
 }
 
-.banner {
-    max-width: 250px;
+.banner{
+    width: 100%;
+    padding: 120px 80px;
+    background-image: url(/Assets/banner-topo.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.banner .top {
+    max-width: 260px;
     color: #3c184e;
 }
 
-.first-paragraph{
+.first_paragraph{
     font-size: 35px;
     margin: 0 0 5px 0;
+    font-weight: bold;
 }
 
-.first-paragraph img{
+.first_paragraph img {
     width: 30px;
-    ba: #3c184e;
     margin-right: 5px;
 }
 
-.second-paragraph {
+.second_paragraph {
     font-size: 14px;
     text-align: center;
-    margin: 0;
+    font-weight: bold;
 }
 
-.title {
-    background-color: #ffffffc4;
+.title{
     max-width: 1024px;
     border-radius: 10px;
     padding: 40px;
     margin: 70px auto 0 auto;
+    background-color: #ffffffc4;
     box-shadow: 0 8px 32px #1f26875e;
 }
+
+.title h1 {
+    font-size: 60px;
+    color: #3c184e;
+    text-align: center;
+    font-weight: 800;
+    margin:  0 0 40px 0;
+}
+
+.title p {
+    width: 200px;
+    padding: 10px 25px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #3c184e;
+    font-size: 20px;
+    text-align: center;
+}
+
+.title a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.title img {
+    width: 20px;
+}
+ 
+
+
+
 
